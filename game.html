@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8">
+    <title>Game</title>
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <link rel="stylesheet" href="Content/Styles/styles.css">
+
+</head>
+
+<body onload="initialize();">
+    <table id="chessboard"></table>
+
+    <div id="buttonDiv">
+        <button onclick="reverseMove();">Back</button>
+        <button onclick="nextMove();">Next</button>
+    </div>
+
+    <script src="../chess_animation/Content/Scripts/jsonStringMoves.js"></script>
+    <script src="../chess_animation/Content/Scripts/jsonStringGames.js"></script>
+    <script src="../chess_animation/Content/Scripts/game.js"></script>
+
+</body>
+
+</html>

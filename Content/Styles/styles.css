@@ -1,0 +1,86 @@
+#chessboard {
+    margin: auto;
+    margin-top: 50px;
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+#chessboard td {
+    border-collapse: collapse;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    font-size: 50px;
+}
+
+#chessboard th {
+    padding: 5px;
+}
+
+#chessboard td.dark {
+    background-color: #669999;
+}
+
+#chessboard td.light {
+    background-color: #ebf0fa;
+}
+
+img {
+    position: relative;
+}
+
+#buttonDiv,
+#gameDiv {
+    padding: 10px;
+    margin: 10px;
+}
+
+#buttonDiv button,
+#gameDiv button {
+    font-size: 30px;
+    border: 2px solid black;
+}
+
+#buttonDiv button {
+    display: inline;
+}
+
+#buttonDiv button:hover {
+    background-color: #174602da;
+    color: #ebf0fa;
+}
+
+#buttonDiv {
+    position: relative;
+    text-align: center;
+}
+
+#player1,
+#player2,
+#player3,
+#player4,
+#game1,
+#game2,
+#game3 {
+    background-color: cadetblue;
+    position: relative;
+    text-align: center;
+    padding: 10px;
+    margin: 30px;
+}
+
+#player1 p,
+#player2 p,
+#player3 p,
+#player4 p,
+#game1 p,
+#game2 p,
+#game3 p {
+    font-size: 30px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+}
